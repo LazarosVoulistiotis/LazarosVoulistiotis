@@ -4,7 +4,7 @@
 
 I like building things end to end: training and evaluating a model properly, explaining its decisions, and serving it behind a tested, documented API.
 
-📍 Athens, Greece &nbsp;
+📍 Athens, Greece &nbsp;·&nbsp; 💼 Open to junior roles in **ML / AI Engineering**, **Data**, and **Backend Software Engineering** (on-site, hybrid or remote)
 
 ---
 
