@@ -1,78 +1,81 @@
 # Hi, I'm Lazaros 👋
 
-**Final-year BSc Computer Science student** with strong academic performance and a clear focus on **applied machine learning**, **backend engineering**, and **production-inspired software systems**.
+**MSc Artificial Intelligence student** at Metropolitan College / University of East London (2026–2027), with a **BSc (Hons) Computer Science** completed in 2026. Focused on **applied machine learning** and **backend engineering**.
 
-I build practical, data-driven applications with attention to clean architecture, secure authentication, database design, API reliability, model evaluation, explainability, testing evidence, and professional documentation.
+I like building things end to end: training and evaluating a model properly, explaining its decisions, and serving it behind a tested, documented API.
 
-My work covers **machine learning**, **fraud detection**, **distributed mobile systems**, **Android development**, **cybersecurity labs**, and **full-stack database-backed applications**.
-
----
-
-## Current Focus
-
-- Applied Machine Learning and Explainable AI
-- Fraud detection, anomaly detection, and risk-oriented ML systems
-- Backend API design with authentication, validation, middleware, and clean service layers
-- Mobile and distributed systems using React Native, Node.js, Express, and MariaDB
-- Android development using Kotlin, Jetpack Compose, Firebase, Room, Biometrics, and Retrofit
-- Deployment-oriented engineering with strong README files, testing evidence, reports, and demo material
+📍 Athens, Greece &nbsp;·&nbsp; 💼 Open to junior roles in **ML / AI Engineering**, **Data**, and **Backend Software Engineering** (on-site, hybrid or remote)
 
 ---
 
-## Featured Projects
+## 🔭 Right now
 
-| Project | Description | Main Technologies |
-|---|---|---|
-| [Credit Card Fraud Detection System](https://github.com/LazarosVoulistiotis/cc-fraud-detection) | Production-inspired machine learning system for fraud detection under extreme class imbalance. Includes model comparison, threshold optimisation, SHAP/LIME explainability, FastAPI inference endpoints, testing, and deployment-oriented documentation. | Python, XGBoost, scikit-learn, SHAP, LIME, FastAPI |
-| [SmartLedger](https://github.com/LazarosVoulistiotis/SmartLedger) | Android FinTech application for secure personal expense tracking and group bill splitting. Extended with offline storage, biometric authentication, Firebase integration, and external API support. | Kotlin, Jetpack Compose, Firebase, Room, AndroidX Biometric, Retrofit |
-| [Theatre Reservation App](https://github.com/LazarosVoulistiotis/theatre-reservation-app) | Three-tier distributed mobile system for theatre reservations with JWT authentication, show search, seat availability, booking management, and double-booking prevention. | React Native, Expo, Node.js, Express, MariaDB, JWT |
-| [Restaurant Reservation App](https://github.com/LazarosVoulistiotis/restaurant-reservation-app) | Mobile reservation system demonstrating frontend-backend integration, secure authentication, relational database design, and complete reservation workflows. | React Native, Node.js, Express, MariaDB |
-| [Heart Disease ANN](https://github.com/LazarosVoulistiotis/heart-disease-ann) | Artificial Intelligence project for multiclass heart disease severity prediction using a feed-forward neural network, preprocessing, tuning, and evaluation artifacts. | Python, Neurolab, NumPy, scikit-learn |
-| [MITM Tools Evaluation](https://github.com/LazarosVoulistiotis/CN6003_MITM_Bettercap_vs_Ettercap) | Controlled cybersecurity lab comparing Bettercap and Ettercap in an isolated environment using measurable criteria and packet analysis evidence. | Kali Linux, Bettercap, Ettercap, Wireshark |
-| [Cinema Booking PHP App](https://github.com/LazarosVoulistiotis/cinema-booking-php-app) | Responsive cinema booking web application with database-backed functionality and reservation-oriented workflows. | PHP, MySQL, HTML, CSS |
-| [Travel Booking System JavaFX](https://github.com/LazarosVoulistiotis/TravelBookingSystem-JavaFX) | JavaFX desktop application for travel agency management, including customers, itineraries, and bookings. | Java, JavaFX, JAXB |
+- Studying for an MSc in AI: computer vision, machine learning on big data, intelligent systems
+- Looking for my first role in tech, where I can work on real ML or backend systems
 
 ---
 
-## Technical Toolkit
+## ⭐ Featured: [Credit Card Fraud Detection with Explainable ML](https://github.com/LazarosVoulistiotis/cc-fraud-detection)
 
-| Area | Technologies |
+My BSc thesis: a fraud detection system for **extreme class imbalance** (284,807 transactions, only 0.17% fraud), taken from EDA to a deployed API.
+
+| Locked test set (56,746 transactions) | |
 |---|---|
-| Machine Learning and Data | Python, scikit-learn, XGBoost, SHAP, LIME, NumPy, pandas, Jupyter |
-| Backend and APIs | Node.js, Express, FastAPI, REST APIs, JWT, bcrypt, middleware design, structured error handling |
-| Databases | MariaDB, MySQL, Oracle Database, SQL, relational modelling, indexing, normalization |
-| Mobile Development | React Native, Expo, Kotlin, Android, Jetpack Compose, Material Design |
-| Android Architecture | MVVM-style architecture, ViewModels, repositories, use cases, Firebase, Room, Retrofit, Biometrics |
-| Tools and Workflow | Git, GitHub, Postman, Docker, Firebase, PowerShell, WebStorm, VS Code, Android Studio |
-| Documentation and Evidence | README files, testing tables, screenshots, demo scripts, reports, presentations |
+| PR-AUC | **0.817** |
+| ROC-AUC | **0.970** |
+| Precision / Recall | **0.83 / 0.81** |
+| False alarms | **16** out of 56,651 legitimate transactions |
+
+- Compared Logistic Regression, Decision Tree, Random Forest and **XGBoost**
+- Picked the **decision threshold** on validation data as a risk policy (≥ 80% precision), instead of the default 0.5; the test set was never used for tuning
+- **SHAP** for global and per-prediction explanations, **LIME** for case-level review
+- **FastAPI** service with schema validation and structured logging, containerised with **Docker** and deployed to **Google Cloud Run**
+- 22 automated tests with **pytest**, run on every push through **GitHub Actions**
+
+`Python` `XGBoost` `scikit-learn` `SHAP` `LIME` `FastAPI` `Docker` `Cloud Run` `GitHub Actions`
 
 ---
 
-## Engineering Strengths
+## 🗂️ Other projects
 
-- Designing applications with clear separation of concerns and layered architecture
-- Building REST APIs with authentication, validation, middleware, and structured error handling
-- Modelling relational databases with primary keys, foreign keys, indexes, and consistency constraints
-- Evaluating machine learning models with meaningful metrics instead of surface-level accuracy
-- Handling imbalanced classification problems with threshold tuning and business-oriented evaluation
-- Applying explainability techniques such as SHAP and LIME to support transparent model decisions
-- Preparing examiner-friendly and recruiter-friendly projects with setup instructions, screenshots, evidence, and clean documentation
+**Machine learning & security**
 
----
+| Project | What it is | Stack |
+|---|---|---|
+| [Heart Disease ANN](https://github.com/LazarosVoulistiotis/heart-disease-ann) | Feed-forward neural network predicting heart disease severity (multiclass), with preprocessing, tuning and evaluation | Python, Neurolab, NumPy, scikit-learn |
+| [MITM Tools Evaluation](https://github.com/LazarosVoulistiotis/CN6003_MITM_Bettercap_vs_Ettercap) | Isolated lab comparing Bettercap and Ettercap on measurable criteria, backed by packet captures | Kali Linux, Bettercap, Ettercap, Wireshark |
 
-## Academic and Professional Direction
+**Mobile & backend**
 
-I am working towards entry-level roles in **Machine Learning Engineering**, **Data/AI Engineering**, and **Backend Software Engineering**.
-
-My main interest is building systems that are not only technically correct, but also **secure**, **explainable**, **testable**, **well-documented**, and ready to be demonstrated in real-world or production-inspired environments.
-
----
-
-## Connect
-
-- GitHub: [github.com/LazarosVoulistiotis](https://github.com/LazarosVoulistiotis)
-- LinkedIn: [Lazaros Voulistiotis](https://www.linkedin.com/in/lazaros-voulistiotis/)
+| Project | What it is | Stack |
+|---|---|---|
+| [SmartLedger](https://github.com/LazarosVoulistiotis/SmartLedger) | Android FinTech app for expense tracking and group bill splitting, with offline storage and biometric login | Kotlin, Jetpack Compose, Firebase, Room, Retrofit |
+| [Theatre Reservation App](https://github.com/LazarosVoulistiotis/theatre-reservation-app) | Three-tier mobile system with JWT auth, seat availability and double-booking prevention | React Native, Expo, Node.js, Express, MariaDB |
+| [Restaurant Reservation App](https://github.com/LazarosVoulistiotis/restaurant-reservation-app) | Mobile reservation system with secure auth and a relational backend | React Native, Node.js, Express, MariaDB |
+| [Cinema Booking](https://github.com/LazarosVoulistiotis/cinema-booking-php-app) | Responsive web app for cinema reservations | PHP, MySQL |
+| [Travel Booking System](https://github.com/LazarosVoulistiotis/TravelBookingSystem-JavaFX) | Desktop app for managing customers, itineraries and bookings | Java, JavaFX, JAXB |
 
 ---
 
-> I focus on building practical software and machine learning systems with clean implementation, strong evaluation, and real-world relevance.
+## 🧰 Tech stack
+
+**ML & Data:** Python, scikit-learn, XGBoost, SHAP, LIME, NumPy, pandas, Jupyter  
+**Backend:** FastAPI, Node.js, Express, REST APIs, JWT, bcrypt  
+**Databases:** MariaDB, MySQL, Oracle, SQL (modelling, indexing, normalisation)  
+**Mobile:** Kotlin, Jetpack Compose, Room, Firebase, React Native, Expo  
+**Tools:** Git, GitHub Actions, pytest, Docker, Google Cloud Run, Postman, Android Studio, VS Code
+
+---
+
+## 🧭 How I work
+
+- **Evaluate honestly:** metrics that fit the problem (precision/recall, PR-AUC, cost-based thresholds), not just accuracy
+- **Keep it explainable:** a model's decision should be something you can show and defend
+- **Structure the code:** layered architecture, validation, clear error handling, real database constraints
+- **Document everything:** every repo has setup steps, test evidence and screenshots
+
+---
+
+## 📫 Contact
+
+[LinkedIn](https://www.linkedin.com/in/lazaros-voulistiotis/) &nbsp;·&nbsp; [GitHub](https://github.com/LazarosVoulistiotis)
