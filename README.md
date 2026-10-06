@@ -4,7 +4,7 @@
 
 I like building things end to end: training and evaluating a model properly, explaining its decisions, and serving it behind a tested, documented API.
 
-📍 Athens, Greece &nbsp;·&nbsp; 
+📍 Athens, Greece &nbsp;
 
 ---
 
